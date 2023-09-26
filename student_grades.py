@@ -1,18 +1,5 @@
 import csv
 
-def main():
-    records = [
-    {'Name': 'Alice', 'Grade': '95.5'},
-    {'Name': 'Bob', 'Grade': '75.0'},
-    {'Name': 'Charlie', 'Grade': '88.5'},
-    {'Name': 'David', 'Grade': '92.0'},
-    {'Name': 'Eve', 'Grade': '78.5'},
-]
-    
-    print(average_grade(records))
-    print("Student Report\n----------------")
-    (filtering(records, 80.0))    
-# inputting the path
 def read_student_records():
     """ 
     Ask for and read a local CSV file to return it to a list of student records (with names and grades).
