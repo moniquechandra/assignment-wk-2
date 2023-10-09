@@ -24,5 +24,3 @@ def analyze_sentiment_other(tweet):
         sentiment = "neutral"
 
     return sentiment
-
-for 
