@@ -1,6 +1,6 @@
-from functions.student_grades import main
-from functions.mandelbrot_plot import draw_mandel
-from functions.pagerank_algorithm import barabasi_albert_network, squirrel_edges
+from functions.week2.student_grades import main
+from functions.week2.mandelbrot_plot import draw_mandel
+from functions.week2.pagerank_algorithm import barabasi_albert_network, squirrel_edges
 
 # Exercise 1
 # Results are printed in the terminal
