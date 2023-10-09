@@ -16,11 +16,12 @@ def analyze_sentiment_english(tweet):
 def analyze_sentiment_other(tweet):
     sia = SentimentIntensityAnalyzer()
     pol_score = sia.polarity_scores(tweet)
-    if pol_score >= 0.05:
+    if pol_score['compound'] >= 0.05:
         sentiment = "positive"
-    elif pol_score <= -0.05:
+    elif pol_score['compound'] <= -0.05:
         sentiment = "negative"
     else:
         sentiment = "neutral"
 
     return sentiment
+
